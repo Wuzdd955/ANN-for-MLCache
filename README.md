@@ -1,8 +1,16 @@
 # ANN-for-MLCache
-This is a replication of ANN for MLCache.
 
-This file contains the training dataset and model code. 
+This repository contains a replication of the ANN-based MLCache mechanism as described in the paper:
 
-The training dataset includes the collection of data from four streams and the collection of data from eight streams. 
+Liu W, Cui J, Li T, et al. “A space-efficient fair cache scheme based on machine learning for NVMe SSDs.” IEEE Transactions on Parallel and Distributed Systems, 2022, 34(1): 383-399.
 
-This replication is referenced from:Liu W, Cui J, Li T, et al. A space-efficient fair cache scheme based on machine learning for nvme ssds. IEEE Transactions on Parallel and Distributed Systems, 2022, 34(1): 383-399.
+##Overview
+
+This project replicates the machine learning-based cache scheme (MLCache) for NVMe SSDs. The scheme aims to improve cache efficiency and fairness by leveraging artificial neural networks (ANNs) to predict the manage cache behavior.
+
+##Files Included
+
+4mix-stream-training-data.csv: Training dataset containing data for four mixed streams.
+8mix-stream-training-data.csv: Training dataset containing data for eight mixed streams.
+MLPRegression.py: The replication code.
+
